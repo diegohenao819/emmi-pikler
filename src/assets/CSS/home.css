@@ -1,0 +1,137 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px;
+  padding-left: 6%;
+  padding-right: auto;
+  width: 90vw;
+
+  border-bottom: 5px solid var(--secondary-bg-color);
+  border-top: 5px solid var(--secondary-bg-color);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background: var(--gradient-home); */
+}
+
+/* Left side */
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 8px;
+  padding-left: 10px;
+
+}
+
+.left h1 {
+  color: var(--main-bg-color);
+  font-size: 90px;
+}
+.left h2 {
+  color: var(--main-text-color);
+  font-size: 40px;
+  margin-bottom: -80px;
+
+}
+
+
+
+.left p {
+  color: var(--main-bg-color);
+  font-size: 20px;
+  margin-top: -65px;
+  width: 50%;
+
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.botones button {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: gold;
+  padding: 10px;
+  width: 300px;
+  height: 80px;
+  cursor: pointer;
+
+  box-shadow: var(--box-shadow-golden);
+  transition: all 2s;
+}
+
+.botones button:hover {
+
+  box-shadow: var(--box-shadow);
+
+ 
+}
+
+/* Right side */
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  align-items: center;
+  border-left: 5px solid var(--main-text-color);
+}
+
+.right img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+transition: all 2s;
+  background-image: red;
+  box-shadow: var(--box-shadow-golden);
+  padding-left: 5px;
+}
+
+.right img:hover {
+  transition: all 2s;
+  box-shadow: var(--box-shadow);
+}
+
+
+
+@media (max-width: 800px) {
+  .home {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .left {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+
+  }
+  .left p{
+    width: 80%;
+  }
+
+  
+
+  .right {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+  .right img {
+    height: 300px;
+    width: 300px;
+  }
+}

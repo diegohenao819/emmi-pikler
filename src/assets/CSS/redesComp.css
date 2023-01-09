@@ -1,0 +1,64 @@
+@import "./index.css";
+
+.redesComp {
+  display: grid;
+gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+
+
+
+ 
+    margin: 30px auto 20px auto;
+
+ 
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    color: white;
+
+}
+
+.caja h1{
+    color: white;
+}
+
+.caja a{
+    color: white;
+    text-decoration: none;
+}
+
+.caja img{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.Facebook {
+  background-color: #4267B2;
+
+
+
+}
+
+.Youtube {
+  background-color: rgba(255, 0, 0, 0.765);
+}
+
+.Twitter {
+  background-color: #1DA1F2;
+}
+
+.Instagram {
+  background-color: #C13584;
+}
+
+.Tiktok {
+  background-color: #00f2ea;
+}

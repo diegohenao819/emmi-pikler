@@ -1,0 +1,66 @@
+@import "./index.css";
+
+
+.top-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 95%;
+  max-width: 1400px;
+  padding: 50px 20px;
+ 
+
+  padding-bottom: 50px;
+  /* border-left: 5px solid var(--main-text-color);
+  border-right: 5px solid var(--main-text-color); */
+
+  border-bottom: 5px solid var(--secondary-bg-color);
+
+  
+}
+
+.cards img {
+  max-width: 250px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  margin: 18px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  border: 5px solid var(--secondary-bg-color);
+}
+
+.card-body h3 {
+  color: var(--main-bg-color);
+}
+
+.card-body p {
+  padding: 30px 8px 30px 8px;
+  /* background-color: var(--main-text-color); */
+  margin: 20px;
+  border-top: 5px solid var(--main-text-color);
+  border-bottom: 5px solid var(--main-text-color);
+  border-radius: 20px;
+  color: var(--main-bg-color);
+  font-weight: 800;
+}

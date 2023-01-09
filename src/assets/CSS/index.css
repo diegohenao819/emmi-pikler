@@ -1,0 +1,22 @@
+:root {
+    --main-bg-color:     #4B5E56;
+    --secondary-bg-color: #D8CAA1;
+    --main-text-color: #E9BE55;
+    --secondary-text-color: #FFF9FF,
+    -borders: #001D4A;
+    --dark:#29339B;
+    --main-gradient: linear-gradient(to right top, #fff9ff, #dbdae3, #b5bcc6, #909fa7, #6e8385, #6e8385, #6e8385, #6e8385, #909fa7, #b5bcc6, #dbdae3, #fff9ff);
+    --box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.76);
+
+    --box-shadow-golden: 0px 0px 30px -7px rgba(231,166,26,1);
+    --gradient-nav: linear-gradient(90deg, rgba(75,94,86,1) 9%, rgba(75,94,86,0.7766456924566701) 89%);
+
+    --gradient-home:linear-gradient(90deg, rgba(75,94,86,0.07636558041185226) 38%, rgba(255,255,255,0.03714989413734249) 89%);
+
+
+
+
+
+
+
+  }
